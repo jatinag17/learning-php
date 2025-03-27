@@ -22,5 +22,11 @@ $height=5.7; //float
 $isMale=true; //boolean
 
 
-echo $name;
+echo "My name is:".$name;
+echo "<br>";
+echo "</br>My age is:".$age;
+echo "<br>";
+echo "</br>My height is:".$height;
+echo "<br>";
+echo "</br>Am I male:".$isMale;
 ?>
