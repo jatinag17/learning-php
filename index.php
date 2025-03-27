@@ -29,4 +29,16 @@ echo "<br>";
 echo "</br>My height is:".$height;
 echo "<br>";
 echo "</br>Am I male:".$isMale;
+echo "<br>";
+echo "<br>";
+var_dump($name);
+echo "<br>";
+echo "<br>";
+var_dump($age);
+echo "<br>";
+echo "<br>";
+var_dump($height);
+echo "<br>";
+echo "<br>";
+var_dump($isMale);
 ?>
