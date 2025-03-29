@@ -62,8 +62,33 @@
 - Addition and Subtraction +
 
 */
-$a=10;
-$b=3;
-echo $a+$b;
+// $a=10;
+// $b=3;
+// echo $a+$b;
 
+/* 
+ Predifined functions
+ ## String functions
+ ## number functions
+ ## math functions
+*/
+
+// string functions
+$name="John doe";
+ echo strlen($name); //length of string
+ echo "<br> <br>";
+ echo str_replace("John","Jane",$name); //replace string
+ echo "<br> <br>";
+ echo strpos($name,"Doe"); //find position of string
+    // echo "<br> <br>";
+    echo str_ireplace("doe","jane",$name); //replace string case insensitive
+    echo "<br> <br>";
+    echo ucwords($name); //capitalize first letter of each word
+    echo "<br> <br>";
+    echo strtolower($name); //convert to lowercase
+    echo "<br> <br>";
+    echo strtoupper($name); //convert to uppercase
+    echo "<br> <br>";
+    echo ucfirst($name); //capitalize first letter of string
+    echo "<br> <br>";
 ?>
