@@ -93,18 +93,33 @@
 //     echo "<br> <br>";
 
 // number functions
-$num=10.5;
- echo round($num); //round number
+// $num=10.5;
+//  echo round($num); //round number
+//  echo "<br> <br>";
+//     echo ceil($num); //round up
+//     echo "<br> <br>";
+//     echo floor($num); //round down
+//     echo "<br> <br>";
+//     var_dump(is_int($num)); //check if number is integer
+//     echo "<br> <br>";
+//     var_dump(is_float($num)); //check if number is float
+//     echo "<br> <br>";
+//     var_dump(is_numeric($num)); //check if number is numeric
+//     echo "<br> <br>";
+
+## Math functions
+ $num1=10;
+ $num2=20;
+  echo max($num1,$num2); //find maximum number
+  echo "<br> <br>";
+  echo min($num1,$num2); //find minimum number
  echo "<br> <br>";
-    echo ceil($num); //round up
-    echo "<br> <br>";
-    echo floor($num); //round down
-    echo "<br> <br>";
-    var_dump(is_int($num)); //check if number is integer
-    echo "<br> <br>";
-    var_dump(is_float($num)); //check if number is float
-    echo "<br> <br>";
-    var_dump(is_numeric($num)); //check if number is numeric
-    echo "<br> <br>";
-    
+echo pi(); //find value of pi
+echo "<br> <br>";
+echo abs(-10); //find absolute value
+echo "<br> <br>";
+echo sqrt(16); //find square root
+echo "<br> <br>";
+echo rand(1,10); //find random number between 1 and 10
+
 ?>
