@@ -21,9 +21,13 @@ $colors[5] = "Black";
 $colors[6] = "White";
 $colors[7] = "Purple";
 // echo $colors[0] . "\n"; // Output: Red
+array_push($colors, "Orange", "Violet", "Brown");
+array_pop($colors); // Remove the last element from the array
+array_shift($colors); // Remove the first element from the array
+$colors=array_reverse($colors); // Reverse the order of the array
+ foreach ($colors as $color) {
+     echo $color. "<br> <br>"; // Output: Red Green Blue Yellow Pink Black White Purple
+ }
 
-foreach ($colors as $color) {
-    echo $color. "<br> <br>"; // Output: Red Green Blue Yellow Pink Black White Purple
-}
 
 ?>
